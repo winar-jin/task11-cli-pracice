@@ -1,0 +1,23 @@
+{
+  "name": "task11-cli-pracice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/winar-jin/task11-cli-pracice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/winar-jin/task11-cli-pracice/issues"
+  },
+  "homepage": "https://github.com/winar-jin/task11-cli-pracice#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.7"
+  }
+}
