@@ -75,6 +75,11 @@ function printscoreList() {
   consoleOutScores(studentList);
 }
 
+function exitProgram() {
+  console.log('exiting...');
+  process.exit(1);
+}
+
 function consoleOutScores(studentList) {
   const scoreInventory = [];
   studentList.forEach(stuNo => {
@@ -121,12 +126,7 @@ function checkpromt(studentInfo) {
 function isNumber(ele) {
   return /^[0-9]*$/g.test(ele);
 }
-
 function isScoreRight(course) {
   return ['数学', '语文', '英语', '编程'].includes(course.split(':')[0]) && isNumber(course.split(':')[1]);
 }
 
-function exitProgram() {
-  console.log('exiting...');
-  process.exit(1);
-}
